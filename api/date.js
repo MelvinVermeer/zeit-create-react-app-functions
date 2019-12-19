@@ -1,4 +1,4 @@
 module.exports = (req, res) => {
-    const date = new Date().toString();
-    res.status(200).send(date);
+    console.log(req.body);
+    res.status(200).send('hello world v2');
 };
